@@ -1,0 +1,217 @@
+@charset "utf-8";
+.nav-zhong{
+	width: 1000px;
+	margin: 0 auto;
+}
+.nav-zhong>.left>.logo{
+	float: left;
+}
+.nav-zhong>.left>p{
+	margin: 0;
+	height: 68px;
+    font-size: 30px;
+    line-height: 68px;
+    border-left: 1px solid #D5D5D5;
+    padding: 14px;
+    float: left;
+    margin-left: -90px;
+}
+.nav-zhong>.right{
+	margin-top: 53px;
+}
+.nav-zhong>.right>p{
+	float: right;
+	font-size: 12px;
+	line-height: 6px;
+}
+.nav-zhong>.right>a{
+	font-size: 14px;
+	color: #FFFFFF;
+	float: right;
+	padding: 5px 15px;
+	background: #ee2a7b;
+	border-radius: 2px;
+	box-shadow: 1.5px 1.5px 0 0 #D5D5D5;
+}
+.zhong{
+	width: 1000px;
+	height: 515px;
+	margin: 20px auto;
+	border: 1px solid #D5D5D5;
+	position: relative;
+}
+.zhong>.right{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.zhong>.loginForm{
+	margin-left: 60px;
+}
+.zhong>.loginForm>h2{
+	width: 552px;
+    font: 20px/40px "Microsoft Yahei", "微软雅黑";
+    margin: 23px 0 40px;
+    border-bottom: 1px dotted #333;
+}
+.zhong>.loginForm>ul>li{
+	margin-bottom: 20px;
+}
+.zhong>.loginForm>ul>li>span{
+    width: 70px;
+    text-align: right;
+    display: inline-block;
+    margin-right: 4px;
+    line-height: 38px;
+    float: left;
+}
+.zhong>.loginForm>ul>li>input.user{
+	background: url(../img/login-2.png) 199px no-repeat;
+    padding-right: 30px;
+    margin-right: 10px;
+}
+.zhong>.loginForm>ul>li>input.psw{
+	background: url(../img/login-3.png) 199px no-repeat;
+    padding-right: 30px;
+    margin-right: 10px;
+}
+.zhong>.loginForm>ul>li>input{
+	width: 182px;
+    height: 36px;
+    line-height: 36px;
+    border: 1px solid #b1adaa;
+    padding: 0 10px;
+    font-size: 14px;
+    float: left;
+}
+.zhong>.loginForm>ul>li>.verify-tips{
+	float: left;
+	line-height: 36px;
+}
+.zhong>.loginForm>ul>li>.verify-tips>h2,span{
+	color: #555;
+	font-size: 12px;
+}
+.zhong>.loginForm>ul>li>.verify-tips>span{
+	color: red;
+	font-size: 12px;
+}
+.zhong>.loginForm>p{
+	margin: 0 0 20px 78px;
+    line-height: 13px;
+}
+.zhong>.loginForm>p>label{
+	margin-right: 20px;
+	font-size: 12px;
+}
+.zhong>.loginForm>p>a{
+	color: #ee2a7b;
+	font-size: 12px;
+}
+.zhong>.loginForm>a{
+   padding: 6px 20px;
+    background: #ee2a7b;
+    border-radius: 2px;
+    box-shadow: 1.5px 1.5px 0 0 #D5D5D5;
+    font-size: 18px;
+    color: #fff;
+    margin-left: 78px;
+}
+.zhong>.loginForm>.three{
+	margin-top: 50px;
+}
+.zhong>.loginForm>.three>h2{
+	font-size: 16px;
+    color: #333;
+}
+.zhong>.loginForm>.three>.icon-box{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #f63372;
+    margin-left: 10px;
+    line-height: 60px;
+    text-align: center;
+    list-style: none;
+    margin: 10px 0 30px 60px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.zhong>.loginForm>.three>.icon-box>.weixin{
+	width: 32px;
+    height: 32px;
+    margin: 14px auto 0;
+}
+.zhong>.loginForm>.three>.icon-box>.weixin>img{
+    vertical-align: top;
+    width: 100%;
+}
+.zhong>.loginForm>.three>.icon-box>p{
+	margin-top: -5px;
+    text-align: center;
+    font-size: 12px;
+    color: #333333;
+}
+.tan{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.3);
+	position: fixed;
+	top: 0;
+}
+.tan>.zh{
+	position: relative;
+}
+.tan>.zh>.z{
+	position: absolute;
+    left: 0;
+    right: 0;
+    margin: 150px auto;
+    color: #FFFFFF;
+}
+.tan>.zh>.z>img{
+    width: 280px;
+    height: 100%;
+    border: 1px solid #E2E2E2;
+    margin: 15px auto;
+    display: block;
+}
+.tan>.zh>.z>h3{
+	font-size: 20px;
+	text-align: center;
+}
+.tan>.zh>.z>h4{
+	font-size: 12px;
+	text-align: center;
+}
+.xia{
+	width: 1000px;
+	margin: 0 auto;
+	display: block;
+}
+.xia>.about{
+    margin: 7px 0 0 0;
+}
+.xia>.about>a{
+	font-size: 12px;
+	padding: 0 8px 0 12px;
+    border-left: 1px solid #5f5754;
+    color: #5f5754;
+}
+.xia>.about>a:hover{
+	color: #ee2a7b;
+}
+.xia>.about>a:first-child{
+    border: 0 none;
+    padding-left: 0;
+}
+.xia>p{
+	color: #333;
+    text-decoration: none;
+    outline: none;
+    font-size: 12px;
+}
+.xia>p>a:hover{
+	color: #ee2a7b;
+}

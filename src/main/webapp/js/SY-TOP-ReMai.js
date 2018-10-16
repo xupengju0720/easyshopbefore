@@ -1,0 +1,16 @@
+$(document).ready(function(){
+	$('.nav-footer').hide()
+	$('.nav>nav>.c1').mouseenter(function(){
+		$('.nav-footer').slideDown()
+	})
+	$('.banner').mouseover(function(){
+		$('.nav-footer').slideUp()
+	})
+	$('.nei>li>div>.img2').hide()
+	$('.nei>li>div>img').click(function(){
+		$(this).eq(0).hide().siblings('img').show()
+	})
+	$('.nei>li>div>img').click(function(){
+		$(this).eq(1).hide().siblings('img').show()
+	})
+})

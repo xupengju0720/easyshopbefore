@@ -1,0 +1,603 @@
+@charset "utf-8";
+body{
+	color: #333;
+}
+.nav{
+	background-color: #663399;
+    height: 38px;
+}
+.nav>.nav-dao{
+	width: 1200px;
+	margin: 0 auto;
+	position: relative;
+}
+.nav>.nav-dao>.nav1{
+	overflow: hidden;
+    line-height: 38px;
+}
+.nav>.nav-dao>.zuo{
+	width: 228px;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 38px;
+    z-index: 999;
+    border: solid #663399;
+    border-width: 0 1px 1px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    background: #fff;
+}
+.nav>.nav-dao>.zuo>li>h2{
+	height: 32px;
+    line-height: 32px;
+    font-size: 16px;
+    color: #453555;
+    background: #fdf2ff;
+}
+.nav>.nav-dao>.zuo>li>h2>i{
+	width: 17px;
+    height: 32px;
+    background: url(../img/CssGaga.png);
+    display: inline-block;
+    margin: 0 8px 0 16px;
+     vertical-align: middle;
+}
+.nav>.nav-dao>.zuo>li>h2>.icon-1{
+    background-position: -337px 0px;
+}
+.nav>.nav-dao>.zuo>li>h2>.icon-2{
+    background-position: -337px -32px;
+}
+.nav>.nav-dao>.zuo>li>h2>.icon-3{
+    background-position: -337px -64px;
+}
+.nav>.nav-dao>.zuo>li>h2>.icon-4{
+    background-position: -337px -96px;
+}
+.nav>.nav-dao>.zuo>li>h2>span{
+    height: 32px;
+    line-height: 32px;
+    font-size: 16px;
+    color: #453555;
+    vertical-align: middle;
+    background: #fdf2ff;
+}
+.nav>.nav-dao>.zuo>li>b{
+	overflow: hidden;
+    padding: 5px 18px 10px;
+    line-height: 22px;
+    zoom: 1;
+    display: block;
+}
+.nav>.nav-dao>.zuo>li>b>a{
+	color: #646464;
+    margin: 0 7px;
+    display: block;
+    height: 22px;
+    float: left;
+    white-space: nowrap;
+    font-size: 12px;
+}
+.nav>.nav-dao>.zuo>li>b>a:hover{
+	color: #663399;
+}
+.nav>.nav-dao>.box{
+	width: 190px;
+	position: absolute;
+	right: 0;
+	top: 48px;
+	z-index: 2;
+}
+.nav>.nav-dao>.box>a>div{
+	width: 100%;
+    height: 130px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #000;
+    opacity: 0.3;
+    filter: alpha(opacity=30);
+}
+.banner{
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+}
+.banner>.ban>b{
+	position: absolute;
+	bottom: 10px;
+	left: 50%;
+	display: block;
+	cursor: pointer;
+}
+.banner>.ban>b>em{
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background: #000;
+	display: inline-block;
+	margin-left: 5px;
+}
+.banner>.ban>b>.current-3{
+	background: #ee2a7b;
+}
+.banner>.ban>img{
+	cursor: pointer;
+	margin-left: -260px;
+}
+/*HOT热销推荐*//*HOT热销推荐*//*HOT热销推荐*//*HOT热销推荐*//*HOT热销推荐*//*HOT热销推荐*//*HOT热销推荐*/
+.hot{
+	width: 1200px;
+	margin: 16px auto;
+}
+.hot>.hot-shang>.hs-z{
+	width: 910px;
+    overflow: hidden;
+    margin-right: 12px;
+}
+.hot>.hot-shang>.hs-z>h2{
+	font-size:18px;
+    border-bottom: 2px solid #000;
+    margin-bottom: 12px;
+}
+.hot>.hot-shang>.hs-z>div{
+	width: 176px;
+    height: 258px;
+    border: 1px solid #e2e2e2;
+    margin-right: 26px;
+    float: left;
+    padding: 10px 15px;
+    background: #f8f8f8;
+}
+.hot>.hot-shang>.hs-z>div:last-child{
+	margin-right: 0;
+}
+.hot>.hot-shang>.hs-z>div>h4{
+	font-size: 14px;
+    margin-bottom: 7px;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+}
+.hot>.hot-shang>.hs-z>div>a>img{
+	width: 176px;
+    height: 176px;
+}
+.hot>.hot-shang>.hs-z>div>span{
+	display: block;
+    margin: 10px 0;
+    overflow: hidden;
+    width: 176px;
+}
+.hot>.hot-shang>.hs-z>div>span>b.red{
+    background: #ee2a7b;
+}
+.hot>.hot-shang>.hs-z>div>span>b{
+	width: 25px;
+    height: 14px;
+    font: 12px/14px "\5B8B\4F53";
+    float: right;
+    background: #6cb525;
+    color: #fff;
+    text-align: center;
+    margin-top: 3px;
+}
+.hot>.hot-shang>.hs-z>div>span>em{
+	font: 14px "\5FAE\8F6F\96C5\9ED1";
+    color: #ee2a7b;
+}
+.hot>.hot-shang>.hs-z>div>i{
+	white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+    font-size: 12px;
+}
+.hot>.hot-shang>.hs-y{
+	width: 278px;
+}
+.hot>.hot-shang>.hs-y>.shang>h3{
+	width: 258px;
+    background: #000;
+    color: #fff;
+    height: 32px;
+    font: 14px/32px "\5FAE\8F6F\96C5\9ED1";
+    padding: 0 10px;
+    overflow: hidden;
+}
+.hot>.hot-shang>.hs-y>.shang>h3>a{
+	color: #fff;
+    font: 12px/32px "\5B8B\4F53";
+    float: right;
+}
+.hot>.hot-shang>.hs-y>.shang{
+	width: 278px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+}
+.hot>.hot-shang>.hs-y>.shang>.include{
+    position: relative;
+}
+.hot>.hot-shang>.hs-y>.shang>.include>img{
+	width: 278px;
+    height: 170px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.hot>.hot-shang>.hs-y>.xia{
+	margin-top: 7px;
+}
+.hot>.hot-shang>.hs-y>.xia>h3{
+	width: 268px;
+    font-size: 14px;
+    padding-right: 10px;
+    border-bottom: 2px #000 solid;
+    overflow: hidden;
+}
+.hot>.hot-shang>.hs-y>.xia>h3>a{
+	float: right;
+    font-size: 12px;
+    line-height: 20px;
+	color: #333;
+}
+.hot>.hot-shang>.hs-y>.xia>div{
+	border: solid #e2e2e2;
+    border-width: 0 1px 1px;
+    padding: 6px 10px;
+}
+.hot>.hot-shang>.hs-y>.xia>div>a{
+	display: block;
+    line-height: 24px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+     font-size: 12px;
+}
+.hot>.hot-shang>.hs-y>.xia>div>a:hover{
+	color: #ee2a7b;
+}
+.hot>.hot-shang>.hs-y>.xia>div>a>i{
+    width: 4px;
+    height: 8px;
+    background-image: url(../img/SY-you-shang-sanjiao.png);
+    margin-right: 13px;
+    float: left;
+    margin-top: 10px;
+}
+.hot>.hot-xia{
+	margin-top: 16px;
+	cursor: pointer;
+}
+/*SKIN护肤*//*SKIN护肤*//*SKIN护肤*//*SKIN护肤*//*SKIN护肤*//*SKIN护肤*/
+.skin{
+	width: 1200px;
+	margin: 16px auto 0;
+}
+.skin>.title{
+	font-size: 18px;
+    line-height: 26px;
+    border-bottom: 2px solid #000;
+    margin-bottom: 12px;
+    float: left;
+    width: 1200px;
+}
+.skin>.title>a{
+	font-size: 12px;
+    line-height: 26px;
+    padding: 0 10px 0 14px;
+    border-left: 1px solid #333;
+}
+.skin>.title>a:first-child{
+	border: 0 none;
+    margin-left: 20px;
+}
+.skin>.title>a:hover{
+	color: #ee2a7b;
+}
+.skin>.fenlei{
+	width: 100px;
+    height: 391px;
+    float: left;
+    margin-right: 12px;
+    background: #f9f2fe;
+}
+.skin>.fenlei>a{
+	display: block;
+    width: 100px;
+    height: 48px;
+    border-bottom: 1px dashed #c5acc1;
+    text-align: center;
+    font: 14px/48px "\5FAE\8F6F\96C5\9ED1";
+}
+.skin>.fenlei>.cur-1{
+	color: #fff;
+    background: #833790 url(../img/point.png) right center no-repeat;
+}
+.skin>.content>li{
+    width: 810px;
+    height: 403px;
+    overflow: hidden;
+}
+.skin>.content>li>div{
+	width: 150px;
+    float: left;
+    line-height: 24px;
+    margin: 0 12px 12px 0;
+}
+.skin>.content>li>div *{
+	display: block;
+	text-align: center;
+}
+.skin>.content>li>div>a>img{
+	width: 150px;
+    height: 150px;
+}
+.skin>.content>li>div>span{
+	white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+    font-size: 12px;
+}
+.skin>.content>li>div>em{
+	color: #ee2a7b;
+	font-size: 12px;
+}
+.skin>.say{
+	width: 278px;
+}
+.skin>.say>h3{
+	width: 278px;
+    font-size: 14px;
+    border-bottom: 2px #000 solid;
+    overflow: hidden;
+}
+.skin>.say>h3>a{
+	float: right;
+    font-size: 12px;
+    line-height: 20px;
+}
+.skin>.say>ol{
+	border: 1px solid #e2e2e2;
+    height: 379px;
+    overflow: hidden;
+}
+.skin>.say>ol>li{
+    padding: 10px 0;
+    margin: 0 10px;
+    border-bottom: 1px dashed #e9e9e9;
+    width: 256px;
+    overflow: hidden;
+}
+.skin>.say>ol>li>a{
+	width: 50px;
+	height: 50px;
+	overflow: hidden;
+	display: block;
+	border: 1px solid #E9E9E9;
+	padding: 2px;
+}
+.skin>.say>ol>li>div{
+	width: 195px;
+	height: 74px;
+	margin-left: 5px;
+}
+.skin>.say>ol>li>div>.name{
+    color: #ee2a7b;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 12px;
+    cursor: pointer;
+}
+.skin>.say>ol>li>div>span{
+	color: #888888;
+	display: block;
+	margin: 5px 0;
+	font-size: 12px;
+}
+.skin>.say>ol>li>div>.summary{
+	line-height: 18px;
+    height: 36px;
+    overflow: hidden;
+    display: block;
+    font-size: 12px;
+}
+.skin>.say>ol>li>div>.summary:hover{
+	color: #ee2a7b;
+	cursor: pointer;
+}
+/*彩妆*//*彩妆*//*彩妆*//*彩妆*//*彩妆*//*彩妆*//*彩妆*//*彩妆*//*彩妆*//*彩妆*//*彩妆*/
+.makeup{
+    width: 1200px;
+    margin: 16px auto 0;
+}
+.makeup>.title{
+    font-size: 18px;
+    line-height: 26px;
+    border-bottom: 2px solid #000;
+    margin-bottom: 12px;
+    float: left;
+    width: 1200px;
+}
+.makeup>.m>dt{
+    width: 399px;
+    height: 400px;
+    float: left;
+    margin-right: 1px;
+    overflow: hidden;
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+}
+.makeup>.m>dt>.list{
+	display: block;
+    position: absolute;
+}
+.makeup>.m>dt>.list>li{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.makeup>.m>dt>.list>li>img{
+	width: 399px;
+	height: 400px;
+	display:block;
+	position: relative;
+}
+.makeup>.m>dt>.page{
+	position: absolute;
+    right: 20px;
+    bottom: 10px;
+    z-index: 99;
+}
+.makeup>.m>dt>.page>em{
+	width: 10px;
+	height: 10px;
+	background: black;
+	border-radius: 50%;
+	display: block;
+	float: left;
+    margin-left: 10px;
+}
+.makeup>.m>dt>.page>.cur-4{
+	background: #ee2a7b;
+}
+.makeup>.m>dd{
+    float: left;
+    width: 800px;
+}
+.makeup>.m>dd>a{
+	float: left;
+    display: block;
+    margin: 0 1px 1px 0;
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s;
+}
+.makeup>.m>dd>a:hover{
+	box-shadow: 0 0 10px 0 #D5D5D5;
+}
+/*营养*//*营养*//*营养*//*营养*//*营养*//*营养*//*营养*//*营养*//*营养*//*营养*//*营养*/
+.nutrition{
+	width: 1200px;
+    margin: 16px auto 0;
+}
+.nutrition>.title{
+	font-size: 18px;
+    line-height: 26px;
+    border-bottom: 2px solid #000;
+    margin-bottom: 12px;
+    float: left;
+    width: 1200px;
+}
+.nutrition>.title>a{
+	font-size: 12px;
+    line-height: 26px;
+    padding: 0 10px 0 14px;
+    border-left: 1px solid #333;
+}
+.nutrition>.title>a:hover{
+	color: #ee2a7b;
+}
+.nutrition>.title>a:first-child{
+	border: 0 none;
+    margin-left: 20px;
+}
+.nutrition>.neirong{
+    margin-right: 12px;
+    float: left;
+}
+.nutrition>.neirong>dt{
+	width: 182px;
+    float: left;
+}
+.nutrition>.neirong>dt>a>img{
+	display: block;
+}
+.nutrition>.neirong>dd{
+	width: 728px;
+    float: left;
+}
+.nutrition>.neirong>dd>a>img{
+	display: block;
+}
+.nutrition>.neirong a:hover{
+	opacity: 0.8;
+	box-shadow: 0 0 10px 0 #D5D5D5;
+}
+.nutrition>.say{
+	width: 278px;
+}
+.nutrition>.say>h3{
+	width: 278px;
+    font-size: 14px;
+    border-bottom: 2px #000 solid;
+    overflow: hidden;
+}
+.nutrition>.say>h3>a{
+	float: right;
+    font-size: 12px;
+    line-height: 20px;
+}
+.nutrition>.say>ol{
+	border: 1px solid #e2e2e2;
+    height: 379px;
+    overflow: hidden;
+}
+.nutrition>.say>ol>li{
+    padding: 10px 0;
+    margin: 0 10px;
+    border-bottom: 1px dashed #e9e9e9;
+    width: 256px;
+    overflow: hidden;
+}
+.nutrition>.say>ol>li>a{
+	width: 50px;
+	height: 50px;
+	overflow: hidden;
+	display: block;
+	border: 1px solid #E9E9E9;
+	padding: 2px;
+}
+.nutrition>.say>ol>li>div{
+	width: 195px;
+	height: 74px;
+	margin-left: 5px;
+}
+.nutrition>.say>ol>li>div>.name{
+    color: #ee2a7b;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 12px;
+    cursor: pointer;
+}
+.nutrition>.say>ol>li>div>span{
+	color: #888888;
+	display: block;
+	margin: 5px 0;
+	font-size: 12px;
+}
+.nutrition>.say>ol>li>div>.summary{
+	line-height: 18px;
+    height: 36px;
+    overflow: hidden;
+    display: block;
+    font-size: 12px;
+}
+.nutrition>.say>ol>li>div>.summary:hover{
+	color: #ee2a7b;
+	cursor: pointer;
+}
+.im{
+	width: 1200px;
+	margin: 16px auto 0;
+	cursor: pointer;
+}
